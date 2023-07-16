@@ -28,9 +28,39 @@
 </p>
 <br>
 
-<h3>
-Project technologies:
-</h3>
+
+## Project technologies:
 
 1. [NestJS](https://nestjs.com/)
 2. [JWT](https://jwt.io/)
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# unit tests
+$ npm run test
+
+# e2e tests
+$ npm run test:e2e
+
+# test coverage
+$ npm run test:cov
+```
