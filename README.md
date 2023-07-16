@@ -1,3 +1,36 @@
-# Simple NestJS RBAC example with JWT tokens.
+<h1 align="center">
+    NestJS RBAC server with JWT tokens
+</h1>
+<br>
 
-I will add some description soon.
+<div align="center">
+    <!-- Last commit -->
+    <img src="https://img.shields.io/github/last-commit/sotream/nestjs-rbac.svg?longCache=true&style=flat-square" alt="Last commit"
+    />
+    <!-- Dependencies -->
+    <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg?longCache=true&style=flat-square" alt="Dependencies"
+    />
+    <!-- Contributors welcome -->
+    <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?longCache=true&style=flat-square" alt="Last update"
+    />
+</div>
+<div align="center">
+    <!-- Наш Facebook -->
+    <a href="https://www.linkedin.com/in/andrii-prisniak-64a7289a">
+        <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-LinkedIn-blue.svg?longCache=true&style=for-the-badge&link=https://www.linkedin.com/in/andrii-prisniak-64a7289a"
+            alt="Lets connect" />
+    </a>
+</div>
+<br>
+
+<p>
+    👨🏼‍🔬 I will add some description soon.
+</p>
+<br>
+
+<h3>
+Project technologies:
+</h3>
+
+1. [NestJS](https://nestjs.com/)
+2. [JWT](https://jwt.io/)
