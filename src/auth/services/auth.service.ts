@@ -32,15 +32,15 @@ export class AuthService {
     }
 
     const payload: Pick<IUser, 'roles' | 'permissions'> = {
-      roles: dbUser.roles,
+      roles:       dbUser.roles,
       permissions: dbUser.permissions,
     };
 
     const access_token = await this.jwtService.signAsync(payload);
 
     return {
-      id: '1',
-      email: 'test@test.test',
+      id:    dbUser.id,
+      email: dbUser.email,
       access_token,
     };
   }
@@ -55,7 +55,7 @@ export class AuthService {
     const access_token = await this.jwtService.signAsync(payload);
 
     return {
-      id: user.id,
+      id:    user.id,
       email: user.email,
       access_token,
     };

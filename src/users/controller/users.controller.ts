@@ -21,7 +21,7 @@ export class UsersController {
 
   @RBACPermissions({
     [KIND.PERMISSIONS]: ['get-all-users'],
-    [KIND.ROLES]: ['admin'],
+    [KIND.ROLES]:       ['admin'],
   })
   @UseGuards(RBACAuthGuard)
   @HttpCode(HttpStatus.OK)

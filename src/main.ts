@@ -12,6 +12,13 @@ async function bootstrap() {
   });
 
   app.disable('x-powered-by');
+  app.set('trust proxy', process.env.NODE_ENV === 'production');
+
+  app.enableCors({
+    origin:      true,
+    methods:     'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    credentials: true,
+  });
 
   await app.listen(3000);
 }

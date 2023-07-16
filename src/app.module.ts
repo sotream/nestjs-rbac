@@ -9,8 +9,8 @@ import { UsersModule } from './users/users.module';
   imports: [
     AuthModule,
     JwtModule.register({
-      global: true,
-      secret: jwtConstants.secret,
+      global:      true,
+      secret:      jwtConstants.secret,
       signOptions: { expiresIn: '15m' },
     }),
     UsersModule,

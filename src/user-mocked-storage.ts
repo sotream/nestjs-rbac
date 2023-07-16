@@ -1,4 +1,4 @@
-import { BadRequestException, Logger, NotFoundException } from '@nestjs/common';
+import { BadRequestException, NotFoundException } from '@nestjs/common';
 import * as crypto from 'crypto';
 import * as bcrypt from 'bcrypt';
 import * as log4js from 'log4js';
@@ -13,8 +13,8 @@ export class UserStorage {
   async init() {
     const users = [
       {
-        email: 'test@test.test',
-        password: '123456',
+        email:        'test@test.test',
+        password:     '123456',
         [KIND.ROLES]: ['admin'],
         // [KIND.PERMISSIONS]: ['get-all-users'],
       },

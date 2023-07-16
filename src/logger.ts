@@ -14,6 +14,7 @@ export class Logger implements LoggerService {
     this.logger = log4js.getLogger(name);
     this.logger.level = level;
   }
+
   /**
    * Write a 'log' level log.
    */
@@ -45,5 +46,7 @@ export class Logger implements LoggerService {
   /**
    * Write a 'verbose' level log.
    */
-  verbose?(...args: [message: any, ...optionalParams: any[]]) {}
+  verbose?() {
+    throw new Error('Verbose method not implemented. Please use \'log\' instead.');
+  }
 }
