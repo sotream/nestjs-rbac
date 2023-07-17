@@ -16,8 +16,8 @@
 </div>
 <div align="center">
     <!-- Наш Facebook -->
-    <a href="https://www.linkedin.com/in/andrii-prisniak-64a7289a">
-        <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-LinkedIn-blue.svg?longCache=true&style=for-the-badge&link=https://www.linkedin.com/in/andrii-prisniak-64a7289a"
+    <a href="https://www.linkedin.com/in/andrii-prisniak">
+        <img src="https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-LinkedIn-blue.svg?longCache=true&style=for-the-badge&link=https://www.linkedin.com/in/andrii-prisniak"
             alt="Lets connect" />
     </a>
 </div>
