@@ -1,3 +1,5 @@
+> **Archived.** Early 2023 experiment. The maintained, production-oriented version of these ideas (JWT access token, rotating refresh cookie with reuse detection, roles) lives in [nest-next-starter](https://github.com/sotream/nest-next-starter), with ADRs and tests.
+
 <h1 align="center">
     NestJS RBAC server with JWT tokens
 </h1>
